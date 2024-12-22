@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.anuj{
+    font-size: 50px;
+    text-shadow:
+    0 0 10px black,
+    0 0 20px black,
+    0 0 30px black,
+    0 0 40px black
+    ;
+    color: white;
+    text-align: center;
+}
+img{
+    height: 450px;
+    width: 450px;
+}
+.daba1{
+    text-align: center;
+}
+.daba2{
+    text-align: center;
+}
+.daba{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+img:hover{
+scale: 1.1;
+figcaption{
+    opacity: 1;
+}
+}
+.daba:hover> :not(:hover){
+    filter: blur(3px);
+    opacity: 0.8;
+
+}
+figcaption{
+    font-size: 50px;
+    margin-top: 20px;
+    opacity: 0;
+}
